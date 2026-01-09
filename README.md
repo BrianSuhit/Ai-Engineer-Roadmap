@@ -22,22 +22,23 @@ El roadmap se divide en un sistema jerárquico manual:
 ## 🔜 Próximos Pasos (Roadmap)
 Este repositorio evolucionará siguiendo esta ruta crítica:
 
-- [x] **0 - Python Fundamentals:** Comprendido de 5 proyectos + curso de Python. Engloba el funcionamiento básico de una IA y POO.
-- [ ] **1 - Introduction:** (Teórico).
-- [ ] **2 - Pre-trained Models:** (Práctico).
-- [ ] **3 - OpenAI API:** (Práctico).
-- [ ] **4 - Open Source AI:** (Práctico).
-- [ ] **5 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
-- [ ] **6 - What are Embeddings:** (Teórico).
-- [ ] **7 - OpenAI Embeddings API:** (Práctico).
-- [ ] **8 - Open-Source Embeddings:** (Práctico).
-- [ ] **9 - Vector Databases:** (Práctico).
-- [ ] **10 - What are RAGs?:** (Muy práctico - Proyecto Clave).
-- [ ] **11 - OpenAI Response API:** (Práctico técnico).
-- [ ] **12 - AI Agents:** (Proyecto avanzado).
-- [ ] **13 - Model Context Protocol (MCP):** (Teórico / Experimental).
-- [ ] **14 - Multimodal AI:** (Práctico).
-- [ ] **15 - Development Tools:** (Práctico transversal).
+- [ ] **1 - library:** (Teórico).
+- [x] **2 - Python Fundamentals:** Comprendido de 5 proyectos + curso de Python. Engloba el funcionamiento básico de una IA y POO.
+- [ ] **3 - Introduction:** (Teórico).
+- [ ] **4 - Pre-trained Models:** (Práctico).
+- [ ] **5 - OpenAI API:** (Práctico).
+- [ ] **6 - Open Source AI:** (Práctico).
+- [ ] **7 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
+- [ ] **8 - What are Embeddings:** (Teórico).
+- [ ] **9 - OpenAI Embeddings API:** (Práctico).
+- [ ] **10 - Open-Source Embeddings:** (Práctico).
+- [ ] **11 - Vector Databases:** (Práctico).
+- [ ] **12 - What are RAGs?:** (Muy práctico - Proyecto Clave).
+- [ ] **13 - OpenAI Response API:** (Práctico técnico).
+- [ ] **14 - AI Agents:** (Proyecto avanzado).
+- [ ] **15 - Model Context Protocol (MCP):** (Teórico / Experimental).
+- [ ] **16 - Multimodal AI:** (Práctico).
+- [ ] **17 - Development Tools:** (Práctico transversal).
 
 ---
 **Autor:** Brian Suhit  

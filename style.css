@@ -1,0 +1,99 @@
+/* Colores Gunmetal */
+:root {
+    --bg: #181a1e;
+    --text: #dddddd;
+    --card-bg: #202226;
+    --accent: #4a90e2; /* Azul técnico */
+    --green: #2ecc71;  /* Completado */
+    --font-stack: 'Geist Mono', monospace;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-bold: 700;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-stack);
+    margin: 0; padding: 2rem;
+}
+
+.roadmap-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* LA GRILLA DE 3 COLUMNAS */
+.roadmap-row {
+    display: grid;
+    /* 1fr (espacio libre) - 300px (Tronco fijo) - 1fr (espacio libre) */
+    grid-template-columns: 1fr 300px 1fr; 
+    gap: 2rem;
+    align-items: center; /* Centrar verticalmente */
+    min-height: 150px;
+}
+
+/* ESTILOS DE LAS CAJAS */
+.main-node {
+    background: var(--card-bg);
+    border: 2px solid #444;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2; /* Para tapar la línea conectora */
+}
+
+.main-node.completed { border-color: var(--green); }
+.main-node.pending { border-color: #666; opacity: 0.7; }
+
+/* LINEA CONECTORA VERTICAL (El Tronco) */
+.col-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.connector-line {
+    width: 2px;
+    background: #444;
+    flex-grow: 1; /* Ocupa todo el espacio vertical disponible */
+    min-height: 2rem;
+}
+
+/* SUBNODOS (Globitos laterales) */
+.col-subnodes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start; /* Alineados a la izquierda de su columna */
+}
+
+.subnode {
+    background: rgba(255,255,255,0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.subnode:hover { border-color: var(--text); }
+
+/* PROYECTO (Lado Izquierdo) */
+.col-project {
+    display: flex;
+    justify-content: flex-end; /* Pegado al centro */
+}
+
+.project-card {
+    border: 1px dashed var(--accent);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: right;
+    cursor: pointer;
+}
