@@ -39,7 +39,7 @@ Este repositorio evolucionará siguiendo esta ruta crítica:
 - [ ] **15 - Multimodal AI:** (Práctico).
 - [ ] **16 - Development Tools:** (Práctico transversal).
 
-- [ ] **special seccion - library:** (Teórico).
+- [ ] **special seccion - Papers:** (Teórico).
 - [ ] **special seccion - Transformers/LLMs:** (Teórico).
 
 ---
