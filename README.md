@@ -22,23 +22,25 @@ El roadmap se divide en un sistema jerárquico manual:
 ## 🔜 Próximos Pasos (Roadmap)
 Este repositorio evolucionará siguiendo esta ruta crítica:
 
-- [ ] **1 - library:** (Teórico).
-- [x] **2 - Python Fundamentals:** Comprendido de 5 proyectos + curso de Python. Engloba el funcionamiento básico de una IA y POO.
-- [ ] **3 - Introduction:** (Teórico).
-- [ ] **4 - Pre-trained Models:** (Práctico).
-- [ ] **5 - OpenAI API:** (Práctico).
-- [ ] **6 - Open Source AI:** (Práctico).
-- [ ] **7 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
-- [ ] **8 - What are Embeddings:** (Teórico).
-- [ ] **9 - OpenAI Embeddings API:** (Práctico).
-- [ ] **10 - Open-Source Embeddings:** (Práctico).
-- [ ] **11 - Vector Databases:** (Práctico).
-- [ ] **12 - What are RAGs?:** (Muy práctico - Proyecto Clave).
-- [ ] **13 - OpenAI Response API:** (Práctico técnico).
-- [ ] **14 - AI Agents:** (Proyecto avanzado).
-- [ ] **15 - Model Context Protocol (MCP):** (Teórico / Experimental).
-- [ ] **16 - Multimodal AI:** (Práctico).
-- [ ] **17 - Development Tools:** (Práctico transversal).
+- [x] **1 - Python Fundamentals:** Comprendido de 5 proyectos + curso de Python. Engloba el funcionamiento básico de una IA y POO.
+- [ ] **2 - Introduction:** (Teórico).
+- [ ] **3 - Pre-trained Models:** (Práctico).
+- [ ] **4 - OpenAI API:** (Práctico).
+- [ ] **5 - Open Source AI:** (Práctico).
+- [ ] **6 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
+- [ ] **7 - What are Embeddings:** (Teórico).
+- [ ] **8 - OpenAI Embeddings API:** (Práctico).
+- [ ] **9 - Open-Source Embeddings:** (Práctico).
+- [ ] **10 - Vector Databases:** (Práctico).
+- [ ] **11 - What are RAGs?:** (Muy práctico - Proyecto Clave).
+- [ ] **12 - OpenAI Response API:** (Práctico técnico).
+- [ ] **13 - AI Agents:** (Proyecto avanzado).
+- [ ] **14 - Model Context Protocol (MCP):** (Teórico / Experimental).
+- [ ] **15 - Multimodal AI:** (Práctico).
+- [ ] **16 - Development Tools:** (Práctico transversal).
+
+- [ ] **special seccion - library:** (Teórico).
+- [ ] **special seccion - Transformers/LLMs:** (Teórico).
 
 ---
 **Autor:** Brian Suhit  
