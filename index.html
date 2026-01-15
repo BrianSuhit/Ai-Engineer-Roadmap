@@ -17,38 +17,7 @@
     <!-- contenedor principal -->
     <main class="roadmap-container">
 
-        <!-- NODO 1: PYTHON FUNDAMENTALS -->
-        <div class="roadmap-row">
-
-            <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
-            <div class="col-project">
-                <div class="project-card" onclick="openModal('repo-python')">
-                    <strong>🚀 PROYECTO</strong>
-                    <span>Python AI Journey</span>
-                </div>
-            </div>
-
-            <!-- COLUMNA CENTRAL: EL TRONCO -->
-                <div class="col-main">
-                <div class="main-node completed">
-                    <h2>1. Python Fundamentals</h2>
-                </div>
-                <!-- La línea vertical que conecta con el siguiente -->
-                <div class="connector-line"></div>
-            </div>
-
-            <!-- COLUMNA DERECHA: SUBNODOS -->
-            <div class="col-subnodes">
-
-                <!-- Nodos Sueltos -->
-                <div class="subnode" onclick="openModal('venv')">Virtual Environments</div>
-                <div class="subnode" onclick="openModal('poo')">POO (Clases)</div>
-                <div class="subnode" onclick="openModal('pandas')">Pandas Dataframes</div>
-            </div>
-
-        </div>
-
-        <!-- NODO 2: INTRODUCCION -->
+        <!-- NODO 1: INTRODUCCION -->
         <div class="roadmap-row">
             
             <!-- IZQUIERDA VACÍA (No hay proyecto) -->
@@ -57,7 +26,7 @@
             <!-- CENTRAL -->
             <div class="col-main">
                 <div class="main-node pending">
-                    <h2>2. Introduction</h2>
+                    <h2>1. Introduction</h2>
                 </div>
                 <div class="connector-line"></div>
             </div>
@@ -67,7 +36,7 @@
                 <div class="subnode">what is an Ai Engineer?</div>
                 <div class="subnode">Roles and Responsibilities</div>
                 <div class="subnode">Impact on Product Development</div>
-                <div class="subnode" onclick="openModal('ai-vs-ml')">AI Engineer vs ML Engineer</div>
+                <div class="subnode" onclick="openModal('AI Engineer vs ML Engineer')">AI Engineer vs ML Engineer</div>
 
             <!-- GRUPO ENVOLVENTE (Common Terminology) -->
             <div class="subnode-group">
@@ -83,14 +52,63 @@
                 <div class="subnode" >Ai Agents</div>
                 <div class="subnode" >RAG</div>
                 <div class="subnode" >Prompt Engineering</div>
-                
             </div>
-
             </div>
-
         </div>
 
-        <!-- NODO 3: Pre-trained Models -->
+        <!-- NODO 2: Pre-trained Models -->
+        <div class="roadmap-row">
+
+            <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
+            <div class="col-project">
+                <div class="project-card" onclick="openModal('repo-python')">
+                    <strong>🚀 PROYECTO</strong>
+                    <span>pendiente</span>
+                </div>
+                </div>
+
+                <!-- COLUMNA CENTRAL: EL TRONCO -->
+                    <div class="col-main">
+                    <div class="main-node pending">
+                        <h2>2. Pre-trained Models</h2>
+                    </div>
+                    <!-- La línea vertical que conecta con el siguiente -->
+                    <div class="connector-line"></div>
+                </div>
+
+                <!-- COLUMNA DERECHA: SUBNODOS -->
+                <div class="col-subnodes">
+                    <div class="subnode" onclick="openModal('venv')">Benefits of Pre-trained Models</div>
+                    <div class="subnode" onclick="openModal('poo')">Limitations and Considerations</div>
+
+                <!-- GRUPO ENVOLVENTE ( Google Models ) -->
+                <div class="subnode-group">
+                    <span class="group-title">Google Models</span>
+                    
+                    <!-- Los hijos van adentro -->
+                    <div class="subnode">Google Models</div>
+                    <div class="subnode">Capabilities / Context Length</div>
+                    <div class="subnode">Cut-off Dates / Knowledge</div>
+                </div>
+
+                <!-- GRUPO ENVOLVENTE ( Other Ai Models ) -->
+                <div class="subnode-group">
+                    <span class="group-title">Other Ai Models</span>
+                    
+                    <!-- Los hijos van adentro -->
+                    <div class="subnode">Anthropic's Claude</div>
+                    <div class="subnode">OpenAi GPT</div>
+                    <div class="subnode">Azure Ai</div>
+                    <div class="subnode">AWS SageMaker</div>
+                    <div class="subnode">Hugging Face Models</div>
+                    <div class="subnode">Mistral AI</div>
+                    <div class="subnode">Cohere</div>
+                    <div class="subnode">Replicate</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NODO 3: Google API -->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -104,7 +122,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>3. Pre-trained Models</h2>
+                    <h2>3. Google API</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -112,15 +130,26 @@
 
             <!-- COLUMNA DERECHA: SUBNODOS -->
             <div class="col-subnodes">
-                <div class="subnode" onclick="openModal('venv')">Virtual Environments</div>
-                <div class="subnode" onclick="openModal('poo')">POO (Clases)</div>
-                <div class="subnode" onclick="openModal('pandas')">Pandas Dataframes</div>
+                <div class="subnode">Chat Completions API</div>
+                <div class="subnode">Writing Prompts</div>
+
+             <!-- GRUPO ENVOLVENTE ( Managings Tokens ) -->
+            <div class="subnode-group">
+                <span class="group-title">Managings Tokens</span>
                 
+                <!-- Los hijos van adentro -->
+                <div class="subnode">Maximum Tokens</div>
+                <div class="subnode">Token Counting</div>
+                <div class="subnode">Pricing Considerations</div>
             </div>
 
+                <div class="subnode">Google AI Studio</div>
+                <div class="subnode">Fine-tuning</div>
+                <div class="subnode">Prompt Engineering</div>
+            </div>
         </div>
 
-        <!-- NODO 4: OpenAI API -->
+        <!-- NODO 4: Open Source AI -->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -134,7 +163,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>4. OpenAI API</h2>
+                    <h2>4. Open Source AI</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -142,45 +171,15 @@
 
             <!-- COLUMNA DERECHA: SUBNODOS -->
             <div class="col-subnodes">
-                <div class="subnode" onclick="openModal('venv')">Virtual Environments</div>
-                <div class="subnode" onclick="openModal('poo')">POO (Clases)</div>
-                <div class="subnode" onclick="openModal('pandas')">Pandas Dataframes</div>
+                <div class="subnode">Open vs Closed Source Models</div>
+                <div class="subnode">Popular Open Source Models</div>
+                <div class="subnode">Pandas Dataframes</div>
                 
             </div>
 
         </div>
 
-        <!-- NODO 5: Open Source AI -->
-        <div class="roadmap-row">
-
-            <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
-            <div class="col-project">
-                <div class="project-card" onclick="openModal('repo-python')">
-                    <strong>🚀 PROYECTO</strong>
-                    <span>pendiente</span>
-                </div>
-            </div>
-
-            <!-- COLUMNA CENTRAL: EL TRONCO -->
-                <div class="col-main">
-                <div class="main-node pending">
-                    <h2>5. Open Source AI</h2>
-                </div>
-                <!-- La línea vertical que conecta con el siguiente -->
-                <div class="connector-line"></div>
-            </div>
-
-            <!-- COLUMNA DERECHA: SUBNODOS -->
-            <div class="col-subnodes">
-                <div class="subnode" onclick="openModal('venv')">Virtual Environments</div>
-                <div class="subnode" onclick="openModal('poo')">POO (Clases)</div>
-                <div class="subnode" onclick="openModal('pandas')">Pandas Dataframes</div>
-                
-            </div>
-
-        </div>
-
-        <!-- NODO 6: AI Safety and Ethics -->
+        <!-- NODO 5: AI Safety and Ethics -->
         <div class="roadmap-row">
 
             <!-- IZQUIERDA VACÍA (No hay proyecto) -->
@@ -189,7 +188,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>6. AI Safety and Ethics</h2>
+                    <h2>5. AI Safety and Ethics</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -205,7 +204,7 @@
 
         </div>
 
-        <!-- NODO 7: What are Embeddings -->
+        <!-- NODO 6: What are Embeddings -->
         <div class="roadmap-row">
 
             <!-- IZQUIERDA VACÍA (No hay proyecto) -->
@@ -214,7 +213,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>7. What are Embeddings</h2>
+                    <h2>6. What are Embeddings</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -230,7 +229,7 @@
 
         </div>
         
-        <!-- NODO 8: OpenAI Embeddings API-->
+        <!-- NODO 7: OpenAI Embeddings API-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -244,7 +243,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>8. OpenAI Embeddings API</h2>
+                    <h2>7. OpenAI Embeddings API</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -260,7 +259,7 @@
 
         </div>
 
-        <!-- NODO 9: Open-Source Embeddings-->
+        <!-- NODO 8: Open-Source Embeddings-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -274,7 +273,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>9. Open-Source Embeddings</h2>
+                    <h2>8. Open-Source Embeddings</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -290,7 +289,7 @@
 
         </div>
 
-        <!-- NODO 10: Vector Databases-->
+        <!-- NODO 9: Vector Databases-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -304,7 +303,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>10. Vector Databases</h2>
+                    <h2>9. Vector Databases</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -320,7 +319,7 @@
 
         </div>
 
-        <!-- NODO 11: What are RAGs?-->
+        <!-- NODO 10: What are RAGs?-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -334,7 +333,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>11. What are RAGs?</h2>
+                    <h2>10. What are RAGs?</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -350,7 +349,7 @@
 
         </div>
 
-        <!-- NODO 12: OpenAI Response API-->
+        <!-- NODO 11: OpenAI Response API-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -364,7 +363,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>12. OpenAI Response API</h2>
+                    <h2>11. OpenAI Response API</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -380,7 +379,7 @@
 
         </div>
 
-        <!-- NODO 13: AI Agents-->
+        <!-- NODO 12: AI Agents-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -394,7 +393,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>13. Ai Agents</h2>
+                    <h2>12. Ai Agents</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -410,7 +409,7 @@
 
         </div>
 
-        <!-- NODO 14: Model Context Protocol (MCP) -->
+        <!-- NODO 13: Model Context Protocol (MCP) -->
         <div class="roadmap-row">
 
             <!-- IZQUIERDA VACÍA (No hay proyecto) -->
@@ -419,7 +418,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>14. Model Context Protocol (MCP)</h2>
+                    <h2>13. Model Context Protocol (MCP)</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -435,7 +434,7 @@
 
         </div>
 
-        <!-- NODO 15: Multimodal AI-->
+        <!-- NODO 14: Multimodal AI-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -449,7 +448,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>15. Multimodal AI</h2>
+                    <h2>14. Multimodal AI</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>
@@ -465,7 +464,7 @@
 
         </div>
 
-        <!-- NODO 16: Development Tools-->
+        <!-- NODO 15: Development Tools-->
         <div class="roadmap-row">
 
             <!-- COLUMNA IZQUIERDA: EL PROYECTO -->
@@ -479,7 +478,7 @@
             <!-- COLUMNA CENTRAL: EL TRONCO -->
                 <div class="col-main">
                 <div class="main-node pending">
-                    <h2>16. Development Tools</h2>
+                    <h2>15. Development Tools</h2>
                 </div>
                 <!-- La línea vertical que conecta con el siguiente -->
                 <div class="connector-line"></div>

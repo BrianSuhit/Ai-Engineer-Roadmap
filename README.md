@@ -22,25 +22,21 @@ El roadmap se divide en un sistema jerárquico manual:
 ## 🔜 Próximos Pasos (Roadmap)
 Este repositorio evolucionará siguiendo esta ruta crítica:
 
-- [x] **1 - Python Fundamentals:** Comprendido de 5 proyectos + curso de Python. Engloba el funcionamiento básico de una IA y POO.
-- [ ] **2 - Introduction:** (Teórico).
-- [ ] **3 - Pre-trained Models:** (Práctico).
-- [ ] **4 - OpenAI API:** (Práctico).
-- [ ] **5 - Open Source AI:** (Práctico).
-- [ ] **6 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
-- [ ] **7 - What are Embeddings:** (Teórico).
-- [ ] **8 - OpenAI Embeddings API:** (Práctico).
-- [ ] **9 - Open-Source Embeddings:** (Práctico).
-- [ ] **10 - Vector Databases:** (Práctico).
-- [ ] **11 - What are RAGs?:** (Muy práctico - Proyecto Clave).
-- [ ] **12 - OpenAI Response API:** (Práctico técnico).
-- [ ] **13 - AI Agents:** (Proyecto avanzado).
-- [ ] **14 - Model Context Protocol (MCP):** (Teórico / Experimental).
-- [ ] **15 - Multimodal AI:** (Práctico).
-- [ ] **16 - Development Tools:** (Práctico transversal).
-
-- [ ] **special seccion - Papers:** (Teórico).
-- [ ] **special seccion - Transformers/LLMs:** (Teórico).
+- [ ] **1 - Introduction:** (Teórico).
+- [ ] **2 - Pre-trained Models:** (Práctico).
+- [ ] **3 - OpenAI API:** (Práctico).
+- [ ] **4 - Open Source AI:** (Práctico).
+- [ ] **5 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
+- [ ] **6 - What are Embeddings:** (Teórico).
+- [ ] **7 - OpenAI Embeddings API:** (Práctico).
+- [ ] **8 - Open-Source Embeddings:** (Práctico).
+- [ ] **9 - Vector Databases:** (Práctico).
+- [ ] **10 - What are RAGs?:** (Muy práctico - Proyecto Clave).
+- [ ] **11 - OpenAI Response API:** (Práctico técnico).
+- [ ] **12 - AI Agents:** (Proyecto avanzado).
+- [ ] **13 - Model Context Protocol (MCP):** (Teórico / Experimental).
+- [ ] **14 - Multimodal AI:** (Práctico).
+- [ ] **15 - Development Tools:** (Práctico transversal).
 
 ---
 **Autor:** Brian Suhit  
