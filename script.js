@@ -147,6 +147,10 @@ const contentDatabase = {
         title: "Prompt Engineering",
         body: "<p>Es la disciplina iterativa de optimizar los prompts para obtener respuestas precisas, consistentes y útiles. Va más allá de escribir una simple instrucción; implica técnicas avanzadas como Chain-of-Thought (pedirle al modelo que razone paso a paso), Few-Shot Prompting (dar ejemplos) y la estructuración sistemática del contexto para minimizar alucinaciones y mejorar la calidad de la salida.</p>"
     },
+    "ai-resume-critiquer": {
+        title: "AI Resume Critiquer",
+        body: "<p>Implementación de critico de pdf, en este caso un cv, utilizando la API de Google para conectarse con el modelo Gemini 3 Flash. <br><br><a href=\"https://github.com/BrianSuhit/02-ai-resume-critiquer\" target=\"_blank\"><strong style=\"color: #FFEE8C;\">link al proyecto</strong></a></p>"
+    },
 
     // NODO 4
     "open-vs-closed-source-models": {

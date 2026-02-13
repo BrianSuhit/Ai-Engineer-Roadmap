@@ -23,8 +23,8 @@ El roadmap se divide en un sistema jerárquico manual:
 Este repositorio evolucionará siguiendo esta ruta crítica:
 
 - [X] **1 - Introduction:** (Teórico).
-- [ ] **2 - Pre-trained Models:** (Práctico).
-- [ ] **3 - OpenAI API:** (Práctico).
+- [X] **2 - Pre-trained Models:** (Práctico).
+- [x] **3 - OpenAI API:** (Práctico).
 - [ ] **4 - Open Source AI:** (Práctico).
 - [ ] **5 - AI Safety and Ethics:** (Teórico con aplicaciones prácticas).
 - [ ] **6 - What are Embeddings:** (Teórico).
